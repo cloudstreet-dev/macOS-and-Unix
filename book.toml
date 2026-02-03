@@ -1,7 +1,6 @@
 [book]
 authors = ["David Liedle"]
 language = "en"
-multilingual = false
 src = "src"
 title = "macOS and Unix: The Complete Guide"
 description = "A comprehensive guide exploring the Unix foundations of macOS and how to leverage them effectively"
