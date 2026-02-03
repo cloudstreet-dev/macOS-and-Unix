@@ -1,0 +1,44 @@
+[book]
+authors = ["David Liedle"]
+language = "en"
+multilingual = false
+src = "src"
+title = "macOS and Unix: The Complete Guide"
+description = "A comprehensive guide exploring the Unix foundations of macOS and how to leverage them effectively"
+
+[build]
+build-dir = "book"
+create-missing = true
+
+[output.html]
+default-theme = "navy"
+preferred-dark-theme = "coal"
+git-repository-url = "https://github.com/cloudstreet-dev/macOS-and-Unix"
+edit-url-template = "https://github.com/cloudstreet-dev/macOS-and-Unix/edit/main/{path}"
+site-url = "/macOS-and-Unix/"
+no-section-label = false
+mathjax-support = false
+copy-fonts = true
+
+[output.html.fold]
+enable = true
+level = 1
+
+[output.html.playground]
+editable = false
+copyable = true
+copy-js = true
+line-numbers = true
+runnable = false
+
+[output.html.search]
+enable = true
+limit-results = 30
+teaser-word-count = 30
+use-hierarchical-headings = true
+boost-title = 2
+boost-hierarchy = 1
+boost-paragraph = 1
+expand = true
+heading-split-level = 3
+copy-js = true
